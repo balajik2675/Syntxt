@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { font-family: Inter, ui-sans-serif, system-ui, sans-serif; color: #20243a; background: #f7f7fc; }
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; }
+.dark body { color: #fff; background: #171d2b; }
+.editor-content { min-height: 260px; outline: none; }
+.editor-content p { margin: .75rem 0; }
+.editor-content h2 { font-size: 1.5rem; font-weight: 700; margin: 1.5rem 0 .5rem; }
+.editor-content blockquote { border-left: 3px solid #6575e8; padding-left: 1rem; color: #62677a; }
+
